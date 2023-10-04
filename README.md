@@ -30,7 +30,7 @@ Otvorite naredbeni redak ili terminal i navigirajte do direktorija sa preuzetim 
 
 Pokrenite aplikaciju iz terminala:
 
-      cargo run
+    cargo run
 
 Aplikacija će se pokrenuti i pojaviti na ekranu. Možete početi preuzimanje i čitanje Medium feedova.
 # Napomena
