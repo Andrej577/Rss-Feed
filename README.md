@@ -24,14 +24,14 @@ Aplikacija je napisana u Rustu, pa ćete morati imati Rust instaliran na svom ra
 
 Otvorite naredbeni redak ili terminal i navigirajte do direktorija sa preuzetim repozitorijem. Zatim instalirajte Rust biblioteke koristeći cargo:
 
-      ```bash
+
     cargo build
 
 # 4. Pokretanje aplikacije
 
 Pokrenite aplikaciju iz terminala:
 
-      ```bash
+
       cargo run
 
 Aplikacija će se pokrenuti i pojaviti na ekranu. Možete početi preuzimanje i čitanje Medium feedova.
