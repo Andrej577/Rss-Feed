@@ -1,4 +1,4 @@
-# Rss-Feed
+# Rss-Reader
 
 Medium RSS Reader je jednostavna aplikacija napisana u Rustu koja omogućava korisnicima da preuzimaju RSS feed sa Medium stranice, smeštaju ih u lokalnu SQLite bazu podataka i čitaju najnovije feedove. Ova aplikacija je dizajnirana kao početnički projekat i ima za cilj pružiti osnovno razumevanje programskog jezika Rust i njegovih biblioteka, kao i rad sa grafičkim sučeljem i bazom podataka.
 Funkcionalnosti
