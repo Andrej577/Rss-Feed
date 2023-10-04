@@ -16,22 +16,23 @@ Funkcionalnosti
 Pratite sledeće korake kako biste instalirali i pokrenuli Medium RSS Reader na vašem Windows računaru:
 # 1. Preuzimanje repozitorijuma
 
-Klonirajte ovaj GitHub repozitorijum ili preuzmite ZIP arhivu sa sledećeg linka: Link do repozitorijuma.
+Klonirajte ovaj GitHub repozitorij ili preuzmite ZIP arhivu
 # 2. Instaliranje Rusta
 
-Aplikacija je napisana u Rustu, pa ćete morati da imate Rust instaliran na svom računaru. Možete preuzeti i instalirati Rust sa zvaničnog sajta: Rust Download
+Aplikacija je napisana u Rustu, pa ćete morati da imate Rust instaliran na svom računalu.
 # 3. Instaliranje neophodnih biblioteka
 
-Otvorite komandni prompt ili terminal i navigirajte do direktorijuma sa preuzetim repozitorijumom. Zatim instalirajte neophodne Rust biblioteke koristeći cargo:
+Otvorite naredbeni redak ili terminal i navigirajte do direktorija sa preuzetim repozitorijem. Zatim instalirajte Rust biblioteke koristeći cargo:
 
-  `bash
-  cargo build
+  ```bash
+
+    cargo build
 
 # 4. Pokretanje aplikacije
 
 Pokrenite aplikaciju iz komandnog prompta ili terminala:
 
-  `bash
+  ```bash
   cargo run
 
 Aplikacija će se pokrenuti i pojaviti na ekranu. Možete početi preuzimanje i čitanje Medium feedova.
