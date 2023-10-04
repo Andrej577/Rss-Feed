@@ -1,26 +1,26 @@
 # Rss-Reader
 
-Medium RSS Reader je jednostavna aplikacija napisana u Rustu koja omogućava korisnicima da preuzimaju RSS feed sa Medium stranice, smeštaju ih u lokalnu SQLite bazu podataka i čitaju najnovije feedove. Ova aplikacija je dizajnirana kao početnički projekat i ima za cilj pružiti osnovno razumevanje programskog jezika Rust i njegovih biblioteka, kao i rad sa grafičkim sučeljem i bazom podataka.
+Medium RSS Reader je jednostavna aplikacija napisana u Rustu koja omogućuje korisnicima da preuzimaju RSS feed sa Medium stranice, smještaju ih u lokalnu SQLite bazu podataka i čitaju najnovije feedove. Ova aplikacija je dizajnirana kao početnički projekt i ima za cilj pružiti osnovno razumjevanje programskog jezika Rust i njegovih biblioteka, kao i rad sa grafičkim sučeljem i bazom podataka.
 Funkcionalnosti
 
-    Preuzimanje RSS feedova: Aplikacija koristi Rust HTTP biblioteku (na primer, reqwest) za slanje HTTP zahteva i preuzimanje XML datoteke koja sadrži RSS feedove sa Medium stranice.
+Preuzimanje RSS feedova: Aplikacija koristi Rust HTTP biblioteku (na primer, reqwest) za slanje HTTP zahtjeva i preuzimanje XML datoteke koja sadrži RSS feedove sa Medium stranice.
 
-    Skladištenje u SQLite bazi podataka: Preuzeti feedovi se smeštaju u lokalnu SQLite bazu podataka radi kasnijeg čitanja i pretrage.
+Skladištenje u SQLite bazi podataka: Preuzeti feedovi se smještaju u lokalnu SQLite bazu podataka radi kasnijeg čitanja i pretrage.
 
-    Čitanje najnovijih feedova: Korisnicima je omogućeno da čitaju najnovije feedove direktno iz aplikacije.
+Čitanje najnovijih feedova: Korisnicima je omogućeno da čitaju najnovije feedove direktno iz aplikacije.
 
-    Grafičko sučelje: Aplikacija je implementirana sa Rust grafičkim sučeljem (na primer, druid) za lakšu interakciju sa korisnicima.
+Grafičko sučelje: Aplikacija je implementirana sa Rust grafičkim sučeljem (Dioxus v0.4) za lakšu interakciju sa korisnicima.
 
-# Uputstvo za instalaciju
+# Upute za instalaciju
 
-Pratite sledeće korake kako biste instalirali i pokrenuli Medium RSS Reader na vašem Windows računaru:
-# 1. Preuzimanje repozitorijuma
+Pratite sljedeće korake da biste instalirali i pokrenuli Medium RSS Reader na vašem Windows računalu:
+# 1. Preuzimanje repozitorija
 
 Klonirajte ovaj GitHub repozitorij ili preuzmite ZIP arhivu
 # 2. Instaliranje Rusta
 
-Aplikacija je napisana u Rustu, pa ćete morati da imate Rust instaliran na svom računalu.
-# 3. Instaliranje neophodnih biblioteka
+Aplikacija je napisana u Rustu, pa ćete morati imati Rust instaliran na svom računalu.
+# 3. Instaliranje biblioteka
 
 Otvorite naredbeni redak ili terminal i navigirajte do direktorija sa preuzetim repozitorijem. Zatim instalirajte Rust biblioteke koristeći cargo:
 
@@ -29,7 +29,7 @@ Otvorite naredbeni redak ili terminal i navigirajte do direktorija sa preuzetim 
 
 # 4. Pokretanje aplikacije
 
-Pokrenite aplikaciju iz komandnog prompta ili terminala:
+Pokrenite aplikaciju iz terminala:
 
       ```bash
       cargo run
